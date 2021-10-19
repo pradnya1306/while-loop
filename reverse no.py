@@ -1,13 +1,13 @@
-# i=1
-# number=int(input("enter the number"))
-# while i<=number:
-#     n=number%10
-#     num=number//10
-#     n1=num%10
-#     num=num//10
-#     sum=(n*100)+(n1*10)+num
-#     i=i+1
-# print(sum)
+i=1
+number=int(input("enter the number"))
+while i<=number:
+    n=number%10
+    num=number//10
+    n1=num%10
+    num=num//10
+    sum=(n*100)+(n1*10)+num
+    i=i+1
+print(sum)
 
 
 i=1

@@ -1,6 +1,6 @@
 i=1
-while i<=10:
-    number=int(input("enter the number"))
+while i<=3:
+    number=int(input("enter the number : "))
     if number < 5:
         print(number, "your guess is lesser")
     elif number > 5:

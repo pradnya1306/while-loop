@@ -1,10 +1,14 @@
 
 i=0
 number=int(input("enter the number"))
+conunt=0
 while i<=number:
-    if number==0 or number==1:
-        print(number," not prime no")
-    else:
-        number==2 or number%2!=0
-        print(number,"prime no")
+    if number%i==0:
+        count=count+1
     i=i+1
+if count==2:
+    print("prime number")
+else:
+    print(number," not prime number")
+
+    
